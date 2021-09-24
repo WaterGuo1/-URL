@@ -1,0 +1,24 @@
+1.URL 包含哪几部分，每部分分别有什么作用
+协议:https
+域名：对IP的的别称（baidu.com），可以打开相应的网站
+路径：进入网页里面相应的地方
+查询参数:所搜索的关键词
+锚点：去到页面指定的某个位置，当然，要在再html里写相应的id
+
+2.DNS 的作用是什么
+DNS是是互联网的一项服务。它作为将域名和IP地址相互映射的一个分布式数据库，能够使人更方便地访问互联网
+
+3.IP 的作用是什么，ping 命令怎么用
+IP是整个TCP/IP协议族的核心，也是构成互联网的基础。IP位于TCP/IP模型的网络层(相当于OSI模型的网络层)，它可以向传输层提供各种协议的信息，例如TCP、UDP等；对下可将IP信息包放到链路层，通过以太网、令牌环网络等各种技术来传送
+ping命令:使用ipconfig来查看自己的IP地址
+
+4.域名是什么，分别哪几类域名
+尽管IP地址能够唯一地标记网络上的计算机，但IP地址是一长串数字，不直观，而且用户记忆十分不方便，于是人们又发明了另一套字符型的地址方案，即所谓的域名地址。IP地址和域名是一一对应的，这份域名地址的信息存放在一个叫域名服务器(DNS，Domain name server)的主机内，使用者只需了解易记的域名地址，其对应转换工作就留给了域名服务器。域名服务器就是提供IP地址和域名之间的转换服务的服务器。
+无赞助：.biz .com .edu .gov .info .int .mil .name .net .org .pro .xyz
+赞助：.aero .cat .coop .jobs .museum .travel .mobi .asia .tel .xxx
+基本架构：.arpa .root .tel
+审批阶段：.post
+申请阶段：.geo .kid .mail .sco .web
+删除/退休：.nato
+预留：.example .invalid .localhost .test
+伪域名：.bitnet .csnet .local .onion .uucp Others
